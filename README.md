@@ -2,7 +2,7 @@
 
 A command-line MP3 metadata viewer and editor written in C, supporting ID3v2 tags.
 This project reads and modifies common metadata fields (Title, Artist, Album, Year, Composer, Genre) directly inside the .mp3 file using binary file handling and endian conversions.
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Features
 🔍 View MP3 Tags
 
@@ -19,6 +19,7 @@ Year (TYER)
 Composer / Comment (COMM)
 
 Content Type / Genre (TCON)
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 ✏️ Edit MP3 Tags
 
@@ -55,6 +56,7 @@ Change Genre
 
 ❓ Help
 ./mp3tag -h
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 🧠 Technical Highlights
@@ -70,6 +72,7 @@ Dynamically allocates memory for variable-sized frames
 Avoids corruption by rewriting frames into a temporary file
 
 Fully modular design using header + source files
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 📂 Project Structure
@@ -80,6 +83,7 @@ MP3_Tag_Editor/
 │── mp3header.h         # Function prototypes + includes
 │── README.md           # Project documentation
 │── .gitignore
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 👨‍💻 Developer
