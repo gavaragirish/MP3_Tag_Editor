@@ -74,6 +74,7 @@ Dynamically allocates memory for variable-sized frames
 Avoids corruption by rewriting frames into a temporary file
 
 Fully modular design using header + source files
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -85,6 +86,8 @@ MP3_Tag_Editor/
 │── mp3header.h         # Function prototypes + includes
 │── README.md           # Project documentation
 │── .gitignore
+
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
